@@ -13,5 +13,8 @@
     "javascript"
   ],
   "author": "Nikolas Santis @nikosantise nikosantis@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
