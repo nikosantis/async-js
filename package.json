@@ -1,0 +1,17 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "Working with async in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async",
+    "javascript"
+  ],
+  "author": "Nikolas Santis @nikosantise nikosantis@gmail.com",
+  "license": "MIT"
+}
