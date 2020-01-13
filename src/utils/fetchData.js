@@ -7,7 +7,7 @@ const fetchData = (url_api) => {
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4) {
         xhr.status === 200
-          ? resolve(JSON.parse(xhr.responseText))
+          ? resolve(JSON.parse(xhr.responseText), console.log(JSON.parse(xhr.responseText)))
           : reject(new Error('Error', url_api))
       }
     }
